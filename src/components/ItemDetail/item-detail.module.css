@@ -3,19 +3,18 @@
 }
 
 .item-section {
-
     width: 50%;
     height: auto;
     color: hsl(228, 12%, 48%);
     overflow: hidden;
-
+    box-sizing: border-box;
 }
 
 .item-section:nth-child(2) {
-    padding: 20px;
+    padding: 25px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 620px) {
     .container {
         flex-direction: column;
     }

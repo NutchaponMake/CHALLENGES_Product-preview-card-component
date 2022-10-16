@@ -4,7 +4,7 @@ export const ItemImage = (props) => {
   return (
     //<div>image-product</div>
     <picture>
-      <source media="(min-width:700px)" srcset="image-product-desktop.jpg" />
+      <source media="(min-width:620px)" srcSet="image-product-desktop.jpg" />
       <img src="image-product-mobile.jpg" alt="product image" />
     </picture>
   );
