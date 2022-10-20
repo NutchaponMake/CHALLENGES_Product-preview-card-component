@@ -5,16 +5,25 @@ html {
 }
 
 body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   min-height: 100vh;
   margin: 0;
 }
 
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
 
 :root {
   font-family: 'Fraunces', serif;
   font-family: 'Montserrat', sans-serif;
-  font-size: 16px;
-  line-height: 24px;
+  font-size: 14px;
+  /* line-height: 24px; */
   font-weight: 400;
   background-color: hsl(30, 38%, 92%);
 

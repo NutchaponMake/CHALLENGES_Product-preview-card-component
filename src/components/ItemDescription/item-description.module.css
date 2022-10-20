@@ -3,8 +3,8 @@ p {
     font-family: 'Montserrat', sans-serif;
 }
 
-h1,
-h2 {
+h1 {
+    font-size: 1.7em;
     color: black;
     font-family: 'Fraunces', serif;
 }
@@ -48,7 +48,7 @@ h2 {
 }
 
 .addBtn::before {
-    content: url(icon-cart.svg);
+    content: url(../../assets/icon-cart.svg);
     margin-right: 10px;
 }
 

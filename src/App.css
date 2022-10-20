@@ -1,9 +1,4 @@
 #root {
-  min-width: 375px;
-  max-width: 1440px;
   margin: 0 auto;
   text-align: center;
-  display: flex;
-  justify-content: center;
-
 }

@@ -1,20 +1,17 @@
 .card {
     width: 35rem;
-    height: 24rem;
+    height: 100%;
     border-radius: 10px;
     background-color: white;
     overflow: hidden;
-    -ms-transform: translate(0%, 50%);
-    transform: translate(0%, 50%);
 }
 
 
 @media screen and (max-width: 620px) {
     .card {
-        width: 80%;
+        width: 85%;
         height: auto;
-        -ms-transform: translate(0%, 2%);
-        transform: translate(0%, 2%);
+        margin: auto;
     }
 
 }
